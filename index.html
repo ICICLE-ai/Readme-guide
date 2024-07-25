@@ -16,6 +16,15 @@
             padding: 20px;
             text-align: center;
         }
+        h2 {
+            color: #0073e6;
+            margin-top: 10px;
+        }
+        h4 {
+            color: #555;
+            margin-top: 5px;
+            font-weight: normal;
+        }
         ul {
             list-style-type: none;
             padding: 0;
@@ -38,16 +47,35 @@
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        .highlight {
+            background-color: #fff8dc;
+            border-left: 5px solid #0073e6;
+            padding-left: 10px;
+        }
+        .description {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Useful Development Links</h1>
+        <h2>Key Resources</h2>
+        <h4>Follow these templates and guides for ICICLE project documentation:</h4>
         <ul>
-            <li>
-                <a href="https://diataxis.fr/">Technical Documentation Authoring Guide</a>
+            <li class="highlight">
+                <a href="https://github.com/othneildrew/Best-README-Template">Readme Template</a>
+                <div class="description">A well-structured README template for your projects, designed to provide all necessary information at a glance.</div>
+            </li>
+            <li class="highlight">
+                <a href="https://diataxis.fr/">Diátaxis: Technical Documentation Authoring Guide</a>
                 <div class="description">A comprehensive guide for authoring technical documentation, focusing on clarity and usability.</div>
             </li>
+        </ul>
+        <h2>Further Reading</h2>
+        <ul>
             <li>
                 <a href="https://docs.readthedocs.io/en/stable/explanation/documentation-structure.html">How to structure your documentation</a>
                 <div class="description">Detailed guidelines on how to structure your documentation effectively, provided by Read the Docs.</div>
@@ -59,10 +87,6 @@
             <li>
                 <a href="https://www.osc.edu/resources/getting_started/howto/how_to_look_at_requested_time_accuracy_using_xdmod">XDMoD Guide</a>
                 <div class="description">A guide on how to use XDMoD for monitoring and optimizing resource usage in high-performance computing environments.</div>
-            </li>
-            <li>
-                <a href="https://github.com/othneildrew/Best-README-Template">Readme Template</a>
-                <div class="description">A well-structured README template for your projects, designed to provide all necessary information at a glance.</div>
             </li>
             <li>
                 <a href="https://www.makeareadme.com/">Make a Readme</a>
